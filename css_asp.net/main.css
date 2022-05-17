@@ -1,0 +1,71 @@
+*{
+    margin: 0%; padding: 0%;
+}
+
+
+body{
+
+}
+
+header{width: 100%; height:250 ; background-color: #b1b1b1;}
+.header{width: 900px; height: 300px; margin: 0 auto;}
+.box{width: 900px; height: 900px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+ footer {width: 900px; height:100px;background-color:#b1b1b1;text-align:center;line-height:100px;color:#FFF;font-size:13px;font-weight:bold;margin: 0 auto}
+.SideBar{position: fixed;width:200px;height:100%;}
+.SideBar ul li{list style: none;padding: 10px 10px;border-bottom: 1px solid rgba(255,255,255,0.4); cursor: pointer; transition: all 0.5s linear;}               
+.SideBar ul li:hover{background-color: #c03926;}
+.SideBar ul li a{color:#fff;font-family:sans-serif;text-decoration: none;}
+.boxe{width: 900px; height: 800px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+.sayfaici{font-size: 30px; font-family:sans-serif; margin-top: 90px; margin: center; margin-left: 90px; width: 600px; height: 325px; }
+.forumtable{width: 300px; height: 50px; margin: 0 auto; margin-left:50px;}
+.yorumtikla{width: 600px; height: 300px; margin: 0 auto ;margin-top: 50px; margin-left:50px; border: "2"; background-color: rgb(225,225,225)}
+.logo{float: left; margin-top: 25px; }
+.logo img{width: 200px; height: 200px; border-radius: 6px;}
+.title{float: left; font-size: 42px; color: #ffffff; margin-top: 25px; margin-left: 10px;}
+.video{width: 250px; height: 250px ; margin-top: 100; margin-left: 80;}
+.video:hover{transform: scale(1.1); z-index: 2;}
+.video img {border-radius: 6px;}
+.boxa{width: 900px; height: 1200px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+.mesaj{width: 600px; height: 300px;  margin: 0 auto; margin-left:125px; border: "2"; background-color: rgb(225,225,225)}
+.videoa{width: 500px; height: 350px ; margin: 0 auto; margin-left: 100;}
+.videoa:hover{transform: scale(1.05); z-index: 2;}
+.videob{width: 500px; height: 350px ; margin: 0 auto; margin-left: 100;}
+.videob:hover{transform: scale(1.05); z-index: 2;}
+.videoc{width: 500px; height: 350px ; margin: 0 auto; margin-left: 100;}
+.videoc:hover{transform: scale(1.05); z-index: 2;}
+.videod{width: 500px; height: 350px ; margin: 0 auto; margin-left: 100;}
+.videod:hover{transform: scale(1.05); z-index: 2;}
+.uyegirisi{width: 300px; margin: 0 auto; height:100px; margin-left:200px; }
+.kayit{font-size: 20px;margin-top: 50px; margin-left:50px;height:640px; width:500px; background-color: rgb(225,225,225) }
+.kimneredeneyapiyor{width:700px; height: 350px; margin-top: 100px; margin-left:50px;}
+.foto img{border-radius: 10px; width: 300px; height: 250px ; margin-top:100px; margin-left:100px; margin-bottom: 3px;}
+.foto:hover{transform: scale(1.1); z-index:2;}
+.boxb{width: 900px; height: 1200px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+.photo img{width: 600px; height: 350px ; }
+.photo {width: 600px; height: 350px ; margin-top:70px; margin-left:90px;}
+.kisiler img{border-radius: 10px; width: 300px; height: 250px ; margin-top:100px; margin-left:100px; margin-bottom: 3px;}
+.foto:hover{ z-index:2;}
+.boxc{width: 900px; height: 1350px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+.me{width: 500px; height: 350px ; margin: 0 auto; margin-left: 100;}
+.boxd{width: 900px; height: 1200px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+.harita{width: 500px; height: 350px ; margin: 0 auto; margin-left: 100; margin-top: 100px;}
+.baslık{float: left; width: 500px; height: 100px; font-size: 30px; margin-top: 70px;  margin-left: 100px;}
+.boxf{width: 900px; height: 1700px; margin: 0 auto; border: 1px solid #ccc; background-color: #FFFFFF ; margin-top: 0px; }
+.img-zoom-container {
+    position: relative;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 40px;
+    height: 40px;
+}
+  
+.img-zoom-result {
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    height: 500px;
+}
